@@ -1,0 +1,60 @@
+//BASIC CALCULATOR BY USING SWITCH CASE 
+
+package p12;
+import java.util.Scanner;
+public class Main {
+	public static void main (String [] args ) {
+		int n;
+		int z;
+		Scanner sc=new Scanner (System.in);
+		System.out.println(" ENETR NUMBER TO PERFORM FOLLOWING OPERATION TO CONTINUE PRESS 0 :");
+		n=sc.nextInt();
+		System.out.println("FOR ADDITION PRESS 1 ");
+		System.out.println("FOR SUBTRACTION PRESS 2 ");
+		System.out.println("FOR MULTIPLICATION PRESS 3 ");
+		z=sc.nextInt();
+		switch (z) 
+		{
+		case 1:
+			int a,b,c;
+
+			System.out.println("Enter first number ");
+
+			a=sc.nextInt();
+			System.out.println("Enter second number ");
+			b=sc.nextInt();
+			c=a+b;
+			System.out.println("Addition of two numebr is :" +c);
+			break ;
+			
+		case 2:
+			int d,e,f;
+			System.out.println("Enter first number ");
+			d=sc.nextInt();
+			System.out.println("Enter second number ");
+
+			e=sc.nextInt();
+			f=d-e;
+			System.out.println("Subtraction of two numebr is :" +f);
+			break ;
+			
+		case 3:
+			int g,h,i;
+			System.out.println("Enter first number ");
+			g=sc.nextInt();
+			System.out.println("Enter second number ");
+
+			h=sc.nextInt();
+			i=g*h;
+			System.out.println("Subtraction of two numebr is :" +i);
+			break ;
+			default:
+				System.out.println("NOT MATCHING CASE ");
+				break;
+		}
+		
+		
+		
+	}
+
+}
