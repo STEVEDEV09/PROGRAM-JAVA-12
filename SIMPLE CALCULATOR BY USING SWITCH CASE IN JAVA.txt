@@ -46,7 +46,7 @@ public class Main {
 
 			h=sc.nextInt();
 			i=g*h;
-			System.out.println("Subtraction of two numebr is :" +i);
+			System.out.println("Product of two numebr is :" +i);
 			break ;
 			default:
 				System.out.println("NOT MATCHING CASE ");
